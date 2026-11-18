@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest", "--headless"]
+    },
+    "yt-dlp": {
+      "command": "npx",
+      "args": ["-y", "@kevinwatt/yt-dlp-mcp"]
+    }
+  }
+}
